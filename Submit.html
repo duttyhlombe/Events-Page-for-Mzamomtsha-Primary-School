@@ -1,0 +1,46 @@
+
+   <!DOCTYPE html>
+
+   <html>
+   
+        <head>
+   
+             <title>Mzamomtsha Primary School</title>
+   
+        </head>
+   
+        <body>
+   
+             <h1>Mzamomstsha Primary School Forms</h1>
+   
+             <p>Fortune Favours<br> The Brave.</p>
+   
+             <form action="/action_page.php">
+                <fieldset>
+            <legend>Personal information:</legend>
+            First name:<br>
+                     <input type="text" name="firstname" value="Hlombe"><br>
+                          Last name:<br>
+                     <input type="text" name="lastname" value="McLander"><br>
+                     Organisation:<br>
+                     <input type="text" name="organisation" value="Clickatell"><br>
+                    <br><label for="funding">Choose funding option:</label>
+                    <select name="funding">
+                        <option value="contribution">Contribution</option>
+                        <option value="donation">donation</option>
+                    </select><br><p>The textarea element defines why the type of funding was made:</p>
+                    <textarea name="message" rows="10" cols="30">
+                        
+                        </textarea><br>
+                        
+                        <br><input type="submit" value="Submit">
+                        <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
+
+                        <br>
+                        <p style="color:red">If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+                </fieldset>
+            </form> 
+               
+        </body>
+   
+   </html>
